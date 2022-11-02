@@ -14,6 +14,10 @@ body {
 	font-family: sans-serif;
 }
 
+hr {
+    color: grey;
+}
+
 /* UTILITY */
 
 .container {
@@ -49,28 +53,31 @@ body {
 }
 
 .img-box {
-    background-color: aqua;
+    background-color: lightseagreen;
     width: 60%;
-    height: 300px;
+    height: 450px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: 1px dashed black;
 }
 
 .text-box {
-    background-color: black;
+    background-color: pink;
     width: 40%;
-    height: 300px;
+    height: 450px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: 1px dashed black;
 }
 
 .green-square {
     background-color: green;
     width: 100%;
-    height: 600px;
+    height: 900px;
     display: inline-block;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: 1px dashed black;
 }
 
 /* FOOTER */
@@ -80,4 +87,33 @@ footer {
     min-height: 100px;
 }
 
+.logo-footer {
+    background-color: palevioletred;
+    width: 33%;
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px dashed black;
+}
 
+.text-footer {
+    background-color: greenyellow;
+    width: 16.66%;
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px dashed black;
+}
+
+.social-footer {
+    background-color: green;
+    width: 100%;
+    height: 75px;
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px dashed white;
+}
+
+.display-footer-after {
+    border: 2px solid gray;
+}
