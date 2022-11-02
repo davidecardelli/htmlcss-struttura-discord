@@ -36,10 +36,35 @@ hr {
     min-height: 50px;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.nav div{
+    background-color: pink;
+    border: 1px dashed black;
+}
+
 .display-header {
     background-color: blue;
     min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
 }
+
+.pink-rectangle{
+    background-color: pink;
+    width: 650px;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 /* MAIN */
 
