@@ -142,7 +142,7 @@ footer {
 }
 
 .display-footer-after {
-    border: 2px solid gray;
+    border-top: 2px solid gray;
 }
 
 .social-footer div {
