@@ -27,7 +27,6 @@ hr {
 
 .d-flex {
     display: flex;
-    align-items: center;
 }
 
 /* HEADER */
@@ -112,8 +111,16 @@ footer {
     display: inline-block;
     margin-top: 30px;
     border: 1px dashed white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .display-footer-after {
     border: 2px solid gray;
+}
+
+.social-footer div {
+    background-color: pink;
+    border: 1px dashed black;
 }
