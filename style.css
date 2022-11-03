@@ -44,16 +44,15 @@ body {
 
 /* HEADER */
 
-.display-nav {
+header {
     background-color: lightblue;
-    min-height: 50px;
 }
 
-.nav {
+.display-nav {
+    height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 10px;
 }
 
 .display-header {
@@ -64,10 +63,10 @@ body {
     align-items: center; 
 }
 
-.pink-rectangle{
+.display-header .pink-rectangle{
     background-color: pink;
-    width: 650px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
     border: 1px dashed black;
 }
 
